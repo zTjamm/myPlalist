@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#root{
+    width: 1280px;
+    background: black;
+    /*padding: 0 64px;*/
+}
+.header{
+    width: 100%;
+    color: #F6BD41;
+    background: #1A1A1ACC;
+    padding: 0 64px;
+}
+.headerContent{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 12px 0;
+}
+.headerIco{
+    width: 24px;
+    height: 24px;
+}
+.headerText{
+    font-size: 18px;
+    font-weight: 700;
+}
